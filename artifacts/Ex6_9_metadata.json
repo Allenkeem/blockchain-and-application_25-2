@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "info",
+						"type": "string"
+					}
+				],
+				"name": "Information",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "deliveryFood",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "foodStatus",
+				"outputs": [
+					{
+						"internalType": "enum Ex6_9.FoodProcess",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "orderFood",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "paymentFood",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "takeAwayFood",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week6/Ex6_12.sol": "Ex6_9"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week6/Ex6_12.sol": {
+			"keccak256": "0xbd5d6922bf99712c2cc80e85a14f318a904b8c7896b2e3858c6caee77742c422",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://167071a53e117f745aa911f1d951ab42a764d6b1a82d045929855703bbe2d7e5",
+				"dweb:/ipfs/QmYcBd2jpCVZ4xy32AAcBSwxs3T7kiu1GtFxjQKJUA22wE"
+			]
+		}
+	},
+	"version": 1
+}
