@@ -24,7 +24,7 @@ contract Bank{
         emit Deposit(msg.sender, msg.value); // event Deposit 호출
     }
     function withdraw(uint256 amount) public { // 출금
-        require(amount > 0, "amount = 0"); // 0 초과의 값이 요구됩니다.
+        require(amount > 0, "AMOUNT SHOULD BE MORE THAN ZERO"); // 0 초과의 값이 요구됩니다.
         uint256 bal = balances[msg.sender]; // bal 변수에 요청을 보낸 주소의 잔고 정의
         require(bal >= amount, "INSUFFICIENT BALANCE");
         // 사용자의 요청과 잔고를 서로 비교, 잔고는 요청값 이상이어야 합니다.
