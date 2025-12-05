@@ -6,6 +6,30 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_major",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "major",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "schoolName",
 				"outputs": [
@@ -32,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week6/Ex6_1.sol": "Student"
+			"nothing/nothing.sol": "Student"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -46,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"week6/Ex6_1.sol": {
-			"keccak256": "0xf9907b3f2fa48f9a7259dc40cba13ee7d3739d2ff47e4616db8f0b0bce85e63d",
+		"nothing/nothing.sol": {
+			"keccak256": "0xc87c30fac93b7b721ca5ab713d2a58125d5ad518b3dd0457cf637c2f143c2269",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fb369c5c4fd63f6569a2ad351e810e9c3719a4844c396c18ed255f87d3d08f6c",
-				"dweb:/ipfs/QmacQfaXTH67mU2w4deL3qqETyDEfaBbVMFNWYPwB9sVSm"
+				"bzz-raw://90ea876940c6c994b4432befa3b1be53f3ea858a13365de4f2b63e37b6271d60",
+				"dweb:/ipfs/QmQZUzaJvPqrvRVTGMyFhvxPtYGVVsEocsAPRLLbwVpugi"
 			]
 		}
 	},

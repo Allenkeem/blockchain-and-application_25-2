@@ -64,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week6/Ex6_121.sol": "Ex6_12"
+			"week6/Ex6_12.sol": "Ex6_12"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -78,7 +78,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"week6/Ex6_121.sol": {
+		"week6/Ex6_12.sol": {
 			"keccak256": "0x26b0cbfa44e27f00b287d1180fac6dcf5204f350ac5a715d8a3fdb0a84266fb0",
 			"license": "GPL-3.0",
 			"urls": [

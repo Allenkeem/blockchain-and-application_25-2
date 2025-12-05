@@ -7,46 +7,69 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "boot",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getAllNames",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					},
 					{
-						"internalType": "bool",
+						"internalType": "string",
 						"name": "",
-						"type": "bool"
+						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "errorCheck",
+				"name": "monitor",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "contract Monitor",
 						"name": "",
-						"type": "bool"
+						"type": "address"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "versionCheck",
+				"name": "start",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "systemUnit",
+				"outputs": [
+					{
+						"internalType": "contract SystemUnit",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -63,7 +86,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"week6/Ex6_1.sol": "Computer"
+			"week6/monitor.sol": "Computer"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -77,12 +100,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"week6/Ex6_1.sol": {
-			"keccak256": "0x0766124ebf889b2c8b9ef62ab3de56bb6f485dada851cba8fc51cc226158dcc0",
+		"week6/monitor.sol": {
+			"keccak256": "0x24d8eb9c665d8d3d182da4d55f35f21c31ef9aa1f6aa48daffc527d6921cf529",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://469aaba45edbc29d0229576d19a6ed4b986652263aaf47e1800a141f1085a635",
-				"dweb:/ipfs/QmT9WqP9uTEeQLE8wrdSeHYGrEPFDfNroeCExxyvYHkkaj"
+				"bzz-raw://4d6eba4b4986004dc30360cc710e34dd5498eb67155ebc3d65b9341adc491539",
+				"dweb:/ipfs/QmYUxdDfZ4Ew6u3S2QdUUKSa56oTuaUgzuhdKRuKtkHnnQ"
 			]
 		}
 	},

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turnOn",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"week6/monitor.sol": "SystemUnit"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"week6/monitor.sol": {
+			"keccak256": "0x24d8eb9c665d8d3d182da4d55f35f21c31ef9aa1f6aa48daffc527d6921cf529",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4d6eba4b4986004dc30360cc710e34dd5498eb67155ebc3d65b9341adc491539",
+				"dweb:/ipfs/QmYUxdDfZ4Ew6u3S2QdUUKSa56oTuaUgzuhdKRuKtkHnnQ"
+			]
+		}
+	},
+	"version": 1
+}

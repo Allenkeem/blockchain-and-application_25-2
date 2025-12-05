@@ -1,0 +1,48 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"sepolia:11155111": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600e575f5ffd5b50603e80601a5f395ff3fe60806040525f5ffdfea2646970667358221220e32138f9d9bd54ac0954aaafdafd1a848c8f9b24408bd3594d17fe7891d3a88e64736f6c634300081e0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1A PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CALLF 0x2138 EXTDELEGATECALL 0xD9 0xBD SLOAD 0xAC MULMOD SLOAD 0xAA 0xAF 0xDA REVERT BYTE DUP5 DUP13 DUP16 SWAP12 0x24 BLOCKHASH DUP12 0xD3 MSIZE 0x4D OR INVALID PUSH25 0x91D3A88E64736F6C634300081E003300000000000000000000 ",
+			"sourceMap": "61:24:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f5ffdfea2646970667358221220e32138f9d9bd54ac0954aaafdafd1a848c8f9b24408bd3594d17fe7891d3a88e64736f6c634300081e0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 PUSH0 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 CALLF 0x2138 EXTDELEGATECALL 0xD9 0xBD SLOAD 0xAC MULMOD SLOAD 0xAA 0xAF 0xDA REVERT BYTE DUP5 DUP13 DUP16 SWAP12 0x24 BLOCKHASH DUP12 0xD3 MSIZE 0x4D OR INVALID PUSH25 0x91D3A88E64736F6C634300081E003300000000000000000000 ",
+			"sourceMap": "61:24:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "64",
+				"totalCost": "12464"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}
