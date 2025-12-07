@@ -123,7 +123,7 @@ contract BlindAuction {
 
         // 기존 최고 입찰자는 pendingReturns에 최고 입찰가를 쌓아둔다.
         if (highestBidder != address(0)){
-            pendingReturns[highestBidder] += highestBid;
+            pendingReturns[highestBidder] += highestBid; // `+=` -> `=`이어도 무방하다
         }
 
         highestBid = valueWei;
@@ -132,7 +132,7 @@ contract BlindAuction {
     }
 
     // 경매에서 지고 pendingReturns에 쌓인 금액(자기 입찰가)을 찾아감
-    // 슬라이드에서 마지막 Withdraw 후 loser(20 ETH 입찰자)rk 20을 돌려받는 부분
+    // 슬라이드에서 마지막 Withdraw 후 loser(20 ETH 입찰자)가 20을 돌려받는 부분
     // Withdraw a non-winning bid
     function withdraw() public {
         uint amount = pendingReturns[msg.sender];

@@ -221,11 +221,11 @@
 	},
 	"sources": {
 		"project(auction)/BlindAuction.sol": {
-			"keccak256": "0xf473a94f2acbc1348d406474fc289be875b7005de939b9efadbaceb30d03e251",
+			"keccak256": "0xbe8c3b956a581ba8800018b585a2b646db9070f93c8916a4452389809b0ac0c1",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://946f5c928e0120ae3c2320404e973b3a32ea1664421988e7d52b8e1f940911ea",
-				"dweb:/ipfs/QmNRidd71PWoZmUBYY3cDkvmW6rYfzAZXbo5CZFELTcZEK"
+				"bzz-raw://356357b8f5de47b761c7e35aa0ed47b17fd18c60e7da9695461c97c20ed06adf",
+				"dweb:/ipfs/QmU8ghm6uN2A3BX2mroV12NUFmmqjVWJL6ouyR3H67RRb5"
 			]
 		}
 	},
