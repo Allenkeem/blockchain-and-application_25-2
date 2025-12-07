@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "secret",
+						"type": "bytes32"
+					}
+				],
+				"name": "makeHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"project(auction)/keccak256-test.sol": "HashCheck"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"project(auction)/keccak256-test.sol": {
+			"keccak256": "0x5b25b2214e0925776d99c350a1c67705d8ace969af0e3bb8c5e6058d5eb8af57",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://728eedae42383b518f93f5a907c586982f3f13fdc5f3e4b4f0f245d53b5d0520",
+				"dweb:/ipfs/QmPH3HqU2VAD3JaMnZHADXZZ86kFq4n38WroPTKyF2NdNh"
+			]
+		}
+	},
+	"version": 1
+}
