@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.30+commit.73712a01"
+		"version": "0.8.31+commit.fd3a2265"
 	},
 	"language": "Solidity",
 	"output": {
@@ -49,13 +49,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "advancePhase",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "auctionEnd",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -85,6 +78,19 @@
 				"name": "bid",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "biddingEndTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -164,6 +170,32 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "lateRefund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "pendingReturns",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -183,6 +215,50 @@
 			},
 			{
 				"inputs": [],
+				"name": "revealEndTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "biddingDuration",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "revealDuration",
+						"type": "uint256"
+					}
+				],
+				"name": "setAuctionTimes",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timesSet",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "withdraw",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -196,19 +272,15 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {
-				"currentPhase()": {
-					"notice": "나중에 돌려줄 금액(최고입찰자였다가 밀려난 사람 등)"
-				}
-			},
+			"methods": {},
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"project(auction)/BlindAuction.sol": "BlindAuction"
+			"project(auction)/newBlindAuction.sol": "BlindAuction"
 		},
-		"evmVersion": "prague",
+		"evmVersion": "osaka",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -220,12 +292,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"project(auction)/BlindAuction.sol": {
-			"keccak256": "0xbe8c3b956a581ba8800018b585a2b646db9070f93c8916a4452389809b0ac0c1",
+		"project(auction)/newBlindAuction.sol": {
+			"keccak256": "0x43e17282b2a250133d860e18747c9788802ddaf37cc0187b478a5f085603084d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://356357b8f5de47b761c7e35aa0ed47b17fd18c60e7da9695461c97c20ed06adf",
-				"dweb:/ipfs/QmU8ghm6uN2A3BX2mroV12NUFmmqjVWJL6ouyR3H67RRb5"
+				"bzz-raw://afe975b4c278c6b72407e6a1fac3ac5503746866076ea46bffdfef0ae18a0248",
+				"dweb:/ipfs/QmUE9Li6x7aeCfipB4SNcdFFWyKZcaARwnmzg7o34hZNT2"
 			]
 		}
 	},

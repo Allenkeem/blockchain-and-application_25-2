@@ -19,7 +19,7 @@ contract BlindAuction {
 
     // Only one bid allowed per address (주소당 한 번만 입찰)
     mapping(address => Bid) public bids;
-    mapping(address => uint) pendingReturns; /// 나중에 돌려줄 금액(최고입찰자였다가 밀려난 사람 등)
+    mapping(address => uint) pendingReturns; // 나중에 돌려줄 금액(최고입찰자였다가 밀려난 사람 등)
 
     Phase public currentPhase = Phase.Init;
     bool public ended; // auctionEnd가 한 번만 실행되도록
@@ -123,7 +123,7 @@ contract BlindAuction {
 
         // 기존 최고 입찰자는 pendingReturns에 최고 입찰가를 쌓아둔다.
         if (highestBidder != address(0)){
-            pendingReturns[highestBidder] += highestBid; // `+=` -> `=`이어도 무방하다
+            pendingReturns[highestBidder] += highestBid;
         }
 
         highestBid = valueWei;
